@@ -19,7 +19,7 @@ int authenticate(char *password)
 
 int main(int argc, char *argv[])
 {
-    if (argc < 2 || strlen(argv[1]) >= 16)
+    if (argc < 2 || strlen(argv[1]) >= 128)
     {
         exit(1);
     }
