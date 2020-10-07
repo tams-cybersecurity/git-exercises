@@ -2,7 +2,7 @@
 
 int main()
 {
-    std::cout << "Type +, -, or *: ";
+    std::cout << "Type +, -, *, or /: ";
     char op;
     std::cin >> op;
     std::cout << "Type a: ";
@@ -22,6 +22,9 @@ int main()
             break;
         case '*':
             c = a * b;
+            break;
+        case '/':
+            c = a / b;
             break;
     }
     std::cout << a << op << b << '=' << c << std::endl;
