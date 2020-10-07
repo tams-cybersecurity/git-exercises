@@ -2,7 +2,7 @@
 
 int main()
 {
-    std::cout << "Type +, -, or *: ";
+    std::cout << "Please type +, -, or *: ";
     char op;
     std::cin >> op;
     std::cout << "Type a: ";
