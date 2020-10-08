@@ -18,11 +18,13 @@ int main()
             c = a + b;
             break;
         case '-':
-            c = a + b;
+            c = a - b;
             break;
         case '*':
             c = a * b;
             break;
+        case '/':
+            c = a / b;
     }
     std::cout << a << op << b << '=' << c << std::endl;
     return 0;
