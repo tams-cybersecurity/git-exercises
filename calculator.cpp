@@ -18,7 +18,7 @@ int main()
             c = a + b;
             break;
         case '-':
-            c = a + b;
+            c = a - b;
             break;
         case '*':
             c = a * b;
