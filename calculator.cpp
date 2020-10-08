@@ -23,6 +23,8 @@ int main()
         case '*':
             c = a * b;
             break;
+        case '/':
+            c = a / b;
     }
     std::cout << a << op << b << '=' << c << std::endl;
     return 0;
